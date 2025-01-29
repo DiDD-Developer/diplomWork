@@ -1,0 +1,40 @@
+/* Стили для пунктов меню */
+.navbar-nav .nav-link {
+    position: relative;
+    color: #000; /* Основной цвет текста */
+    transition: color 0.3s ease; /* Плавное изменение цвета */
+    text-decoration: none;
+}
+
+/* Анимация при наведении */
+.navbar-nav .nav-link:hover {
+    color: #1E7CB9; /* Цвет текста при наведении */
+}
+
+/* Линия под пунктами меню */
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Расстояние линии от текста */
+    width: 0;
+    height: 2px;
+    background-color: #1E7CB9; /* Цвет линии */
+    transition: width 0.3s ease; /* Плавное появление линии */
+}
+
+/* Расширение линии при наведении */
+.navbar-nav .nav-link:hover::after {
+    width: 100%; /* Линия расширяется до полной ширины */
+}
+
+/* Стили для мобильной версии */
+@media (max-width: 100px) {
+    .navbar-nav .nav-link::after {
+        width: 0; /* Линия остается скрытой */
+    }
+
+    .navbar-nav .nav-link:hover::after {
+        width: 50%; /* Линия занимает только 50% ширины текста */
+    }
+}

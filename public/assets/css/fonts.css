@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "JuraBold";
+    src: url("../fonts/Jura-Bold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "JuraLight";
+    src: url("../fonts/Jura-Light.ttf") format("truetype");
+}
+@font-face {
+    font-family: "JuraMedium";
+    src: url("../fonts/Jura-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "JuraRegular";
+    src: url("../fonts/Jura-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "JuraSemiBold";
+    src: url("../fonts/Jura-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "JuraBoldVariableFont_wght";
+    src: url("../fonts/Jura-VariableFont_wght.ttf") format("truetype");
+}
+
+*{
+    font-family: "JuraBold", sans-serif;
+}
