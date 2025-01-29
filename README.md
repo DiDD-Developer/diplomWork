@@ -1,66 +1,60 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# О проекте
+Данный проект представляет собой сайт-гид с туристическимим местами в г. Челябинске. Данный проект служит инструментом для туристов и местных жителей, изучающих или интересующихся его культурой и историей.
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Функционал
+Данный сайт позволяет сделать следующее пользователям, которые в нем зарегистрированы и авторизованы:
 
-## About Laravel
+- Просматривать информацию о любом из имеющихся туристических мест.
+- Добавлять любое из этих мест в "Избранное", чтобы после можно было к ним вернуться в любое время на странице личного кабинета.
+- Оставлять отзывы на любое из туристических мест, включая оценку по 5-балльной шкале и текстовый комментарий.
+- Оценивать чужие и свои комментарии на туристические места, оставляя под ним лайк или дизлайк.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Установка
+Чтобы установить и запустить приложение, выполните следующие шаги:
+1. Склонируйте репозиторий с проектом на свой локальный компьютер.
+2. Откройте проект в Open Server Panel или разместите его на хостинге.
+3. Соберите и запустите проект.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Используемые в проекте технологии
+В проекте используются такие технологии, как:
+1. Веб-фреймворк <a href="https://laravel.com">Laravel</a> для организации серверной и клиентской частей приложения.
+2. Фреймворк для стилизации элементов <a href="https://getbootstrap.com">Bootstrap</a>, обеспечивающий уникальный минималистичный пользовательский интерфейс и интерактивность элементов.
+3. Библиотека <a href="https://fontawesome.ru">Font Awesome</a>, благодаря которой можно использовать уникальные иконки в своем проекте, такие как например Сердце.
+4. <a href="https://yandex.ru/maps-api/docs/js-api/index.html">Яндекс API Javascript</a> для отображения туристических мест на карте с меткой и баллуном (карточкой с информацией о месте при клике на метку).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Вклад
+Мы приветствуем любой вклад в развитие проекта. Если у вас есть предложения по улучшению или вы нашли ошибку, пожалуйста, создайте issue или отправьте pull request на GitHub.
 
-## Learning Laravel
+## Авторское право
+Весь код и материалы в этом репозитории охраняются авторским правом и предоставляются только для ознакомления. Вы не имеете права использовать, изменять или распространять этот код без разрешения автора.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+===========
+# About the project
+This project is a website guide with tourist places in Chelyabinsk. This project serves as a tool for tourists and locals who study or are interested in its culture and history.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Functionality
+This site allows you to do the following for users who are registered and logged in to it:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+- View information about any of the available tourist spots.
+- Add any of these places to your Favorites so that you can return to them at any time on the personal account page.
+- Leave reviews for any of the tourist spots, including a 5-point rating and a text comment.
+- Rate other people's and your own comments on tourist sites, leaving a like or dislike under it.
 
-## Laravel Sponsors
+## Installation
+To install and run the application, follow these steps:
+1. Download the repository with the project to your local computer.
+2. Open the project in the Open Server Panel or host it on a hosting service.
+3. Assemble and run the project.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Technologies used in the project
+The project uses technologies such as:
+1. Web framework <a href="https://laravel.com ">Laravel</a> for organizing the server and client parts of the application.
+2. A framework for styling elements <a href="https://getbootstrap.com ">Bootstrap</a>, which provides a unique minimalistic user interface and interactive elements.
+3. Library <a href="https://fontawesome.ru ">Font Awesome</a>, thanks to which you can use unique icons in your project, such as, for example, a Heart.
+4. <a href="https://yandex.ru/maps-api/docs/js-api/index.html">Yandex Javascript API</a> for displaying tourist places on a map with a placemark and a balloon (a card with information about the place when clicking on the placemark).
 
-### Premium Partners
+## Contribution
+We welcome any contribution to the development of the project. If you have any suggestions for improvement or have found a bug, please create an issue or send a pull request to GitHub.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Copyright
+All code and materials in this repository are copyrighted and provided for review only. You may not use, modify, or distribute this code without the author's permission.
